@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyActivity"
+    android:orientation="vertical"
+    android:background="@drawable/cardbackgrounf">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_marginTop="10sp">
+
+        <ImageView
+            android:id="@+id/tomattow_fer"
+            android:layout_width="170sp"
+            android:layout_height="170sp"
+            android:src="@drawable/tomattow_fer"></ImageView>
+
+        <TextView
+            android:id="@+id/fert1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/myborder"
+
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="40sp"
+            android:text="Tomatto Fertilizer Rs:270/-"
+            android:textColor="#FFFEFE"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_marginTop="25sp">
+
+        <ImageView
+            android:layout_width="170sp"
+            android:layout_height="170sp"
+            android:layout_marginTop="15sp"
+            android:background="@color/white"
+            android:src="@drawable/pepperbell"></ImageView>
+
+        <TextView
+            android:id="@+id/f2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/myborder"
+            android:fontFamily="sans-serif-medium"
+            android:padding="55sp"
+            android:text="Capsicum  Rs:189/"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:layout_marginTop="25sp">
+
+        <ImageView
+            android:layout_width="170sp"
+            android:layout_height="170sp"
+            android:layout_marginTop="15sp"
+            android:background="@color/white"
+            android:src="@drawable/fert3"></ImageView>
+
+        <TextView
+            android:id="@+id/f3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/myborder"
+            android:fontFamily="sans-serif-medium"
+            android:padding="40sp"
+            android:text="Green_veggies Rs:219/-"
+            android:textColor="#FFFDFD"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp">
+
+        <ImageView
+            android:layout_width="170sp"
+            android:layout_height="170sp"
+            android:background="@color/white"
+            android:src="@drawable/pesti_fert"></ImageView>
+
+        <TextView
+            android:id="@+id/f4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/myborder"
+            android:fontFamily="sans-serif-medium"
+            android:padding="40sp"
+            android:text="neem pesticide  Rs:270/-"
+            android:textColor="#FFFAFA"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+
+
+</LinearLayout>
